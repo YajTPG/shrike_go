@@ -1,0 +1,5 @@
+*.elf
+*.bin
+*.uf2
+!example/firmware.bin
+.vscode/
