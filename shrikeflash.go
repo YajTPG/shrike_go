@@ -12,10 +12,10 @@ var (
 	_PWR = machine.FPGA_PWR
 	_EN  = machine.FPGA_EN
 
-	_SS   = machine.GP1
-	_SCK  = machine.GP2
-	_MOSI = machine.GP3
-	_MISO = machine.GP0
+	_SS   = machine.IO1
+	_SCK  = machine.IO2
+	_MOSI = machine.IO3
+	_MISO = machine.IO0
 )
 
 var Debug = false
