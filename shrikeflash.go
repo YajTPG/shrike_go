@@ -70,7 +70,7 @@ func Flash(data []byte) error {
 func Reset() {
 	_PWR.Low()
 	_EN.Low()
-	print("FPGA Reset")
+	log("FPGA Reset")
 }
 
 func log(msg string) {
